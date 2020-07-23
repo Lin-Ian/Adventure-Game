@@ -222,6 +222,9 @@ def timer():
     # Check if time has not gone past 10 minutes
     if time_remaining <= 0:
         game_done = True
+        r_val = 0
+        g_val = 0
+        b_val = 0
         pop_up_message = "You took too long to save everyone\nYou Lose"
 
 
@@ -470,6 +473,7 @@ def game_done_screen(message, r_value, g_value, b_value):
     background(r_value, g_value, b_value)
     textSize(40)
     textAlign(CENTER, CENTER)
+    fill(255)
     text(message, 480, 270)
     button(860, 490, 200, 100, 20, "--->")
 

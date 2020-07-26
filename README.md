@@ -20,6 +20,6 @@ A graphical implementation of Adventure Game.py using Processing, an open-source
 * Install Sound from Libraries and Python Mode for Processing 3 from Modes
 
 #### Setup
-* [Download Zipped File of Repository](https://github.com/Lin-Ian/Adventure-Game/archive/master.zip)
-* Extract Adventure-Game-master from zipped file
+* [Download Zipped Folder of Repository](https://github.com/Lin-Ian/Adventure-Game/archive/master.zip)
+* Extract Adventure-Game-master from zipped folder
 * Open Adventure-Game-master/Adventure-Game/Adventure_Game.pyde with Processing
